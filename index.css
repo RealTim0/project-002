@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: linear-gradient(rgb(151, 77, 77), rgba(165, 19, 145, 0.098));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+.econtent{
+    max-width: fit-content;
+    top: 70%;
+    left:30%;
+    position: absolute;
+    font-size: 2rem;
+    color: rgb(8, 54, 49);
+    border:2px solid sienna ;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+}
+.econtent:hover{
+    background-color: rgb(185, 38, 38);
+    cursor: pointer;
+}
+.wewe{
+    display: none;
+    max-width: fit-content;
+    top: 50%;
+    left:30%;
+    position: absolute;
+    font-size: 2rem;
+    color: rgb(8, 54, 49);
+    border:2px solid sienna ;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: white;
+    animation: dropdown 1s .1s ease-in-out forwards;
+}
+#btn{
+    color:red;
+    font-size: 2rem;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+}
+@keyframes dropdown{
+    0%{top: 0% }
+    100%{ top: 50%}
+}
+
+
