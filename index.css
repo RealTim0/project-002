@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
+    background-color: 00 00 00 .2;
 }
 .econtent{
     max-width: fit-content;
@@ -25,11 +26,11 @@ body{
     background-color: rgb(185, 38, 38);
     cursor: pointer;
 }
-.wewe{
+.saved{
     display: none;
     max-width: fit-content;
     top: 50%;
-    left:30%;
+    left:15%;
     position: absolute;
     font-size: 2rem;
     color: rgb(8, 54, 49);
@@ -37,7 +38,7 @@ body{
     border-radius: 15px;
     padding: 5px;
     background-color: white;
-    animation: dropdown 1s .1s ease-in-out forwards;
+    animation: dropdown 1s  ease-in-out forwards;
 }
 #btn{
     color:red;
@@ -46,6 +47,7 @@ body{
     background-color: white;
     border-radius: 15px;
 }
+
 @keyframes dropdown{
     0%{top: 0% }
     100%{ top: 50%}
